@@ -9,6 +9,7 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
+cron_log.log
 
 # Used by dotenv library to load environment variables.
 # .env
