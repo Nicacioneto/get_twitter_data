@@ -1,9 +1,9 @@
 require 'daemons'
 
 options = {
-  :app_name   => "get_tweets",
+  :app_name   => "tweets_streamer",
   :backtrace  => true,
   :monitor    => true,
 }
 
-Daemons.run('get_tweets.rb', options)
+Daemons.run('tweets_streamer.rb', options)
