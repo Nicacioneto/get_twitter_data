@@ -21,6 +21,5 @@ begin
 
 rescue PG::Error => e
     puts e.message
-ensure
-    con.close if con
+    con = PG.connect :dbname => 'testdb', :user => 'nicacio'
 end
